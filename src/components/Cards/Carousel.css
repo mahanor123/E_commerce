@@ -1,0 +1,26 @@
+.wide {
+  border: 0.5px solid rgb(172, 172, 172);
+  width: 1750px;
+  height: 300px;
+  margin-left: 30px;
+  margin-bottom: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background: white; */
+}
+@media (max-width: 1150px) {
+  .wide {
+    width: 1091px;
+  }
+}
+@media (max-width: 750px) {
+  .wide {
+    width: 691px;
+  }
+}
+@media (max-width: 600px) {
+  .wide {
+    width: 541px;
+  }
+}

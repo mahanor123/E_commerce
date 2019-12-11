@@ -1,0 +1,13 @@
+.cart-item {
+  width: 80%;
+  height: 270px;
+  border: black 0.5px solid;
+  margin: 0 10%;
+}
+.cart-item img {
+  display: block;
+  margin-top: 15px;
+}
+.cart-item:hover {
+  box-shadow: -2px 2px 3px gray, 2px -2px 3px gray;
+}
