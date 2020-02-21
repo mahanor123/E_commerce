@@ -30,7 +30,7 @@ export default class Home extends React.Component {
             ? console.log("no state")
             : console.log("state has been set")}
           {this.state
-            ? this.state.cat.map((c, i) => {
+            ? this.state.cat.map(function(c, i) {
                 return (
                   <Rectangle
                     key={c.Heading}
